@@ -60,8 +60,10 @@
 
 	</header>
 
-    <div class="contact-image">
-	<img src="assets/images/belles-contact-page.jpg" alt="Belles on a Christmas singout" width="40%" height="40%" class="img-center">
+    <h1 class="title-text text-center">Contact Us</h1>
+
+    <div class="top-image">
+	<img src="assets/images/belles-contact-page.jpg" alt="Belles on a Christmas singout" width="50%" height="50%" class="img-center">
     </div>
 
 	<h1 class="contact-text">The Belles are available for performances. <strong>Contact us</strong> today to discuss your requirements</h1>
@@ -74,7 +76,7 @@
       <label for="name">Name:</label>
     </div>
     <div class="form-text-box">
-      <input type="text" id="name" name="name" placeholder="Your name..">
+      <input type="name" id="name" name="name" placeholder="Your name.." required>
     </div>
   </div>
   <div class="row">
@@ -101,12 +103,14 @@
       <label for="subject">Subject</label>
     </div>
     <div class="form-text-box">
-      <textarea id="subject" name="subject" placeholder="Your Message..." style="height:200px"></textarea>
+      <textarea id="subject" name="subject" placeholder="Your Message..." style="height:200px" required></textarea>
     </div>
   </div>
-  <div class="row">
-    <input type="submit" value="Submit">
-  </div>
+	<div class="submit-button">
+		<div class="row">
+			<input type="submit" value="Submit">
+	  </div>
+		</div>
   </form>
  
 </div>

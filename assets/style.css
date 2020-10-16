@@ -108,16 +108,25 @@ footer {background-color: #bdbdbd;
   width: 100%;
 }
 
+.title-text {color: #e62e6c;
+            font-family: 'Dancing Script', cursive;
+            font-weight: 700;
+            font-size: 3em;
+           
+            margin-top: 15px;
+            margin-bottom: 15px;}
+
+
 /*----------contact page----------*/
 
 .contact-text {font-family: 'Lato', sans-serif;
                font-size: 18px;
                text-align: center;
                margin-top: 30px; 
-               margin-bottom: 10px;
+               margin-bottom: 20px;
 }
 
-.contact-image {text-align: center;
+.top-image {text-align: center;
                 margin-top: 10px;
                               
 }
@@ -147,13 +156,73 @@ iframe {margin-bottom:50px;
   float: left;
   width: 65%;
   margin-top: 4px;
-             
+              
 }
+
+.submit-button {border: #626567;
+                border-width: 2px;
+               border-radius: 2px;
+               }
 
 .form-text {font-family: 'Lato', sans-serif;
             font-size: 18px;}
 
+/*----------general----------*/
+
+.title-text {color: #e62e6c;
+                       font-family: 'Dancing Script', cursive;
+                       font-weight: 700;
+                       font-size: 3em;}
+
 
 /*----------what is barbershop page----------*/
 
-.panel-group {border: #626567;}
+.barbershop-accordian {border: #626567;
+                       margin-top: 20px;
+                       margin-left: 25px;
+                       margin-bottom:25px;}
+
+.barbershop-text {font-family: 'Lato', sans-serif;
+                    border-style: solid;
+               border-width: 2px;
+               border-radius: 2px;
+               margin-top: 15px;
+               margin-left: 15px;}
+
+
+
+
+
+ /*----------gallery----------*/
+
+ .gallery {margin-left: 35px;
+           margin-right: 35px;
+           margin-top: 35px;
+           margin-bottom: 25px;}
+
+.gallery-image {width: 100%;
+                margin-bottom: 25px;}
+
+.zoom:hover {transform: scale(1.2);
+                 transition: transform .3s; }
+
+ /*----------gallery media queries----------*/
+
+@media screen and (max-width: 1393px){
+
+ .gallery {column-count: 3;
+        }
+
+}
+
+@media screen and (max-width: 992px){
+
+.gallery {column-count: 2;
+        }
+}
+
+@media screen and (max-width: 576px){
+
+.gallery {column-count: 1;
+        }
+}

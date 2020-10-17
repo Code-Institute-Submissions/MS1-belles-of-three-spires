@@ -153,12 +153,13 @@ footer {background-color: #bdbdbd;
 }
 
 .container-timeline {
-  padding: 10px 10px;
+  padding: 10px 5px 10px 0px;
   margin-bottom: 10px;
   margin-top: 20px;
+  margin-right: 80px;
   position: relative;
   background-color: #bdbdbd ;
-  width: 90%;
+  width: 50%;
   border-radius: 5px;
   
 }
@@ -167,18 +168,7 @@ footer {background-color: #bdbdbd;
   left: -16px;
 }
 
-.container-timeline::after {
-  content: '';
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  background-color: white;
-  border: 3px solid #e62e6c;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 1;
-  margin-left: -33.5px;
-}
+
 
 .right::before {
   content: " ";
@@ -256,8 +246,11 @@ textarea {
 
 /*----------general----------*/
 
-iframe {margin-bottom: 20px;
-        margin-top: 20px;}
+iframe {margin-bottom: 100px;
+        margin-top: 40px;
+                }
+
+
 
 .title-text {color: #e62e6c;
                        font-family: 'Dancing Script', cursive;
@@ -270,19 +263,20 @@ iframe {margin-bottom: 20px;
 /*----------what is barbershop page----------*/
 
 .barbershop-accordian {border: #626567;
-                       margin-top: 50px;
+                       margin-top: 110px;
                        margin-left: 25px;
                        margin-bottom:25px;}
 
 .barbershop-text {font-family: 'Lato', sans-serif;
-                    text-align: center;
-               margin-top: 20px;
-               margin-left: 15px;}
+                  text-align: center;
+                  margin-top: 20px;
+                  margin-left: 15px;
+                  margin-bottom: 10px;}
 
 .barbershop-text-header {margin-top: 50px;
                        color: #e62e6c; }
 
-
+.panel-body {margin-bottom: 25px;}
 
 
 

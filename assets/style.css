@@ -113,6 +113,26 @@ footer {background-color: #bdbdbd;
             margin-top: 15px;
             margin-bottom: 15px;}
 
+/*----------general----------*/
+
+iframe {margin-bottom: 100px;
+        margin-top: 40px;
+                }
+
+.youtube-text {font-family: 'Lato', sans-serif;
+               font-size: 2em;
+               margin-top: 10px;
+               margin-bottom: 20px;}
+
+.title-text {color: #e62e6c;
+                       font-family: 'Dancing Script', cursive;
+                       font-weight: 700;
+                       font-size: 3em;}
+
+.responsive-image {width: 70%;
+                   height: auto;}
+
+
 /*----------who are the belles page----------*/
 
 .belles-text-box {background-color: #bdbdbd;
@@ -129,10 +149,9 @@ footer {background-color: #bdbdbd;
                 font-weight: 700;
                 }
 
-.youtube-text {font-family: 'Lato', sans-serif;
-               font-size: 2em;
-               margin-top: 10px;
-               margin-bottom: 20px;}
+
+.belles-youtube-text {margin-top: 25px;
+                      margin-bottom: 35px;}
 
 /*----------timeline line----------*/
 
@@ -249,21 +268,9 @@ textarea {
 .form-text {font-family: 'Lato', sans-serif;
             font-size: 18px;}
 
-/*----------general----------*/
-
-iframe {margin-bottom: 100px;
-        margin-top: 40px;
-                }
-
-
-
-.title-text {color: #e62e6c;
-                       font-family: 'Dancing Script', cursive;
-                       font-weight: 700;
-                       font-size: 3em;}
-
-.responsive-image {width: 70%;
-                   height: auto;}
+.contact-google-link {margin-top: 25px;
+                      margin-bottom: 45px;
+                      }          }
 
 /*----------what is barbershop page----------*/
 
@@ -283,7 +290,8 @@ iframe {margin-bottom: 100px;
 
 .panel-body {margin-bottom: 25px;}
 
-
+.barbershop-youtube-text {margin-top: 25px;
+                          margin-bottom: 30px;}
 
  /*----------gallery----------*/
 

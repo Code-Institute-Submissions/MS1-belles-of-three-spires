@@ -50,6 +50,30 @@ a.middle:hover:before {visibility: visible;
               font-family: 'Lato', sans-serif;       
               }
 
+.belles-text:hover {color:#e62e6c;
+        text-decoration: underline;                    
+}
+
+.belles-text:active {color:#e62e6c;}
+
+.belles-text.middle {position: relative;}
+
+.belles-text.middle:before { content: "";
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                bottom: 9px;
+                left: 0;
+                background-color: #e62e6c;
+                visibility: hidden;
+                transform: scaleX(0);
+                transition: all 0.2s ease-in-out;
+                }
+
+.belles-text.middle:hover:before {visibility: visible;
+                       transform: scaleX(1);
+}
+
 .belles-text {color: #e62e6c;
               font-family: 'Dancing Script', cursive;
               font-weight: 700;
@@ -125,7 +149,7 @@ iframe {margin-bottom: 50px;
                   padding-left: 20px;
                   padding-right: 20px;
                   padding-bottom: 20px;
-                  margin-top: 20px;
+                  margin-top: 2px;
                   padding-top: 2px;
                   border-radius: 5px;}
 
@@ -137,9 +161,6 @@ iframe {margin-bottom: 50px;
 .belles-youtube-text {margin-top: 25px;
                       margin-bottom: 35px;}
 
-body {background-image: url(./assets/images/background.png);
-      background-repeat: repeat;
-      background-size: 100px 100px;}
 
 /*----------timeline line----------*/
 
@@ -180,8 +201,6 @@ body {background-image: url(./assets/images/background.png);
   left: -16px;
 }
 
-
-
 .right::before {
   content: " ";
   height: 0;
@@ -205,8 +224,7 @@ body {background-image: url(./assets/images/background.png);
 /*----------contact page----------*/
 
 .top-image {text-align: center;
-                margin-top: 10px;
-                              
+                margin-top: 10px;                           
 }
 
 .contact-text {font-family: 'Lato', sans-serif;
@@ -250,7 +268,6 @@ textarea {
                 border-radius: 2px;
                 width: 40px;
                 padding-bottom: 2px;
-                
                }
 
 .form-text {font-family: 'Lato', sans-serif;
@@ -276,7 +293,10 @@ textarea {
                        color: #e62e6c; }
 
 .panel-body {margin-bottom: 25px;
-             padding-top: 15px;}
+             padding-top: 15px;
+             margin-top: 10px;}   
+
+.panel-group {margin-top: 100px;}
 
 .barbershop-youtube-text {margin-top: 25px;
                           margin-bottom: 30px;}
@@ -339,3 +359,5 @@ textarea {
 
 .timeline::after {margin-left: 0px"}
 }
+
+.panel-group {margin-top: 50px;}

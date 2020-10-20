@@ -1,120 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>The Belles of Three Spires</title>
-	<link rel="icon" type="image/png" href="assets/images/belles-favicon.PNG" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link
-		href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@300;400;700;900&display=swap"
-		rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-		integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
-		crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-		integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-</head>
-
-<body>
-	<header class="container-fluid">
-		<div class="row no-gutters container-fluid">
-			<div class="col-2 d-none d-sm-block">
-				<div class="header-logo">
-					<a href="index.html"><img src="assets/images/belles-logo4.png" width="60" height="60" alt="Belles Logo"></a>
-				</div>
-			</div>
-			<div class="col-8 offset-2 col-sm-4">
-				<div class="header-text">
-					<a href="index.html">
-						<h1 class="belles-text text-center">
-							The Belles of Three Spires</h1>
-					</a>
-					<br>
-					<h2 class="d-none d-sm-block belles-sub-text text-center">Ladies Barbershop Chorus</h2>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<nav class="navbar navbar-light navbar-expand-sm mx-auto">
-				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="navbar-toggler-icon"></span></button>
-				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-
-					<ul class="navbar-nav mr-auto header-text header-links">
-						<li class="nav-item mr-2"><a class="nav-link middle" href="index.html">Who are the Belles?</a>
-						</li>
-						<li class="nav-item mr-2"><a class="nav-link middle" href="barbershop.html">What is
-								Barbershop?</a>
-						</li>
-						<li class="active nav-item mr-2"><a class="nav-link middle" href="gallery.html">Gallery</a></li>
-						<li class="nav-item mr-2"><a class="nav-link middle" href="contact.html">Contact Us</a></li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-	</header>
-
-	<h1 class="text-center title-text">Gallery</h1>
-
-	<div class="responsive">
-		<div class="gallery">
-			<img src="assets/images/gallery-1.jpg" alt="Aurora Quartet" class="gallery-image zoom">
-			<img src="assets/images/gallery-2.jpg" alt="Convention Celebration Cake" class="gallery-image zoom">
-			<img src="assets/images/gallery-3.jpg" alt="Convention 2019" class="gallery-image zoom">
-			<img src="assets/images/gallery-4.jpg" alt="80s Night" class="gallery-image zoom">
-			<img src="assets/images/gallery-5.jpg" alt="Training Day" class="gallery-image zoom">
-			<img src="assets/images/gallery-6.jpg" alt="Friends and Family Christmas Show" class="gallery-image zoom">
-			<img src="assets/images/gallery-7.jpg" alt="Sing Out Compilation" class="gallery-image zoom">
-			<img src="assets/images/gallery-8.jpg" alt="Afternoon Tea" class="gallery-image zoom">
-			<img src="assets/images/gallery-9.jpg" alt="Christmas Learn to Sing" class="gallery-image zoom">
-			<img src="assets/images/gallery-10.jpg" alt="Convention 2018" class="gallery-image zoom">
-			<img src="assets/images/gallery-11.jpg" alt="Music Team" class="gallery-image zoom">
-			<img src="assets/images/gallery-12.jpg" alt="Belles New Badges" class="gallery-image zoom">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Belles of Three Spires</title>
+    <link rel="icon" type="image/png" href="assets/images/belles-favicon.PNG" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+      integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div class="row no-gutters container-fluid">
+        <div class="col-2 d-none d-sm-block">
+          <div class="header-logo">
+            <a href="index.html"><img src="assets/images/belles-logo4.png" width="60" height="60" alt="Belles Logo"></a>
+          </div>
         </div>
-	</div>
-
-		<footer class="container-fluid">
-			<div class="row no-gutters container-fluid">
-
-				<div class="col-6 offset-3 col-sm-6">
-					<a href="index.html">
-						<div class="text-center">
-							<h1 class="belles-footer-text">
-								The Belles of Three Spires</h1>
-						</div>
-					</a>
-				</div>
-			</div>
-
-			<div class="contact-link text-center">
-				<a href="contact.html">Contact Us</a>
-
-			</div>
-
-			<div class="social-links text-center">
-				<a href="https://www.facebook.com/thebellesofthreespires/"
-					target="_blank"><i class="fab fa-facebook"></i></a>
-				<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-				<a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-				<a href="https://www.youtube.com/results?search_query=the+belles+of+three+spires"
-					target="_blank"><i class="fab fa-youtube"></i></a>
-			</div>
-
-		</footer>
-		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer
-			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-		</script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" defer
-			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-		</script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer
-			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-		</script>
-</body>
-
+        <div class="col-8 offset-2 col-sm-4">
+          <div class="header-text">
+            <a href="index.html">
+              <h1 class="belles-text text-center">
+                The Belles of Three Spires
+              </h1>
+            </a>
+            <br>
+            <h2 class="d-none d-sm-block belles-sub-text text-center">Ladies Barbershop Chorus</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <nav class="navbar navbar-light navbar-expand-sm mx-auto">
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto header-text header-links">
+              <li class="nav-item mr-2"><a class="nav-link middle" href="index.html">Who are the Belles?</a>
+              </li>
+              <li class="nav-item mr-2"><a class="nav-link middle" href="barbershop.html">What is
+                Barbershop?</a>
+              </li>
+              <li class="active nav-item mr-2"><a class="nav-link middle" href="gallery.html">Gallery</a></li>
+              <li class="nav-item mr-2"><a class="nav-link middle" href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <h1 class="text-center title-text">Gallery</h1>
+    <div class="responsive">
+      <div class="gallery">
+        <img src="assets/images/gallery-1.jpg" alt="Aurora Quartet" class="gallery-image zoom">
+        <img src="assets/images/gallery-2.jpg" alt="Convention Celebration Cake" class="gallery-image zoom">
+        <img src="assets/images/gallery-3.jpg" alt="Convention 2019" class="gallery-image zoom">
+        <img src="assets/images/gallery-4.jpg" alt="80s Night" class="gallery-image zoom">
+        <img src="assets/images/gallery-5.jpg" alt="Training Day" class="gallery-image zoom">
+        <img src="assets/images/gallery-6.jpg" alt="Friends and Family Christmas Show" class="gallery-image zoom">
+        <img src="assets/images/gallery-7.jpg" alt="Sing Out Compilation" class="gallery-image zoom">
+        <img src="assets/images/gallery-8.jpg" alt="Afternoon Tea" class="gallery-image zoom">
+        <img src="assets/images/gallery-9.jpg" alt="Christmas Learn to Sing" class="gallery-image zoom">
+        <img src="assets/images/gallery-10.jpg" alt="Convention 2018" class="gallery-image zoom">
+        <img src="assets/images/gallery-11.jpg" alt="Music Team" class="gallery-image zoom">
+        <img src="assets/images/gallery-12.jpg" alt="Belles New Badges" class="gallery-image zoom">
+      </div>
+    </div>
+    <footer class="container-fluid">
+      <div class="row no-gutters container-fluid">
+        <div class="col-6 offset-3 col-sm-6">
+          <a href="index.html">
+            <div class="text-center">
+              <h1 class="belles-footer-text">
+                The Belles of Three Spires
+              </h1>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="contact-link text-center">
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div class="social-links text-center">
+        <a href="https://www.facebook.com/thebellesofthreespires/"
+          target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/results?search_query=the+belles+of+three+spires"
+          target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" defer
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
 </html>

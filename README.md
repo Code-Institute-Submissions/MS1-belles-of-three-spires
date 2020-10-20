@@ -47,7 +47,7 @@ The charcoal grey of the header and footer is also used throughout the body of t
 ## Typography
 
 There are two main fonts used in the site. Dancing script, with a backup of the cursive font is used for "The Belles of 
-Three Spires" and also for the page titles. This font matches font that is used for the Belles on their marketing 
+Three Spires" and also for the headers. This font matches font that is used for the Belles on their marketing 
 material. All other text uses the lato font, with the backup font of sans serif. This is a clean and easy to read font 
 which fits in with the simple style of the site and also contracts nicely with the script of the headers.
 
@@ -61,12 +61,85 @@ The wireframes for the site were created in balsamiq and uploaded as a pdf. They
 
 ## Existing Features
 
-The site is responsive across all screen sizes. The bootstrap grid has been 
+The site is responsive across all screen sizes. The layout of the pages change depending on the size of screen, with some features 
+disappearing in smaller screen sizes. This has created a tidy and clean look on all screens.
 
+## 1. Featured timeline
 
+The timeline allows users to engage with the site, enabling them to see the Belle's history and accolades
+
+![Belles' Timeline](assets/documentation/screenshot-belles-timeline.PNG)
+
+## 2. About the Belles
+
+The about the Belles section will give important information about the Belles, building on the timeline and helping the 
+user engage with the site.
+
+![About the Belles](assets/documentation/screenshot-about-belles.PNG)
+
+## 3. YouTube Video
+
+The inclusion of a YouTube video enables the user to see the Belles performances. The embedded video means the user 
+will stay on the site for longer. This serves 2 purposes, firstly it is beneficial for the site's SEO, and also 
+having the video on the page means that the user is more likely to continue to engage with the site rather than 
+looking at other YouTube videos.
+
+The embedded video did not work as well on smaller screens, so I made the decision to change the video to a link 
+to optimise the user experience.
+
+## 4. Accordion
+
+I have added an accordion in order to give details of the different parts of a barbershop chorus. This helps to 
+explain this not so well-known musical style and creates interest.
+
+Having the information given as an accordion means that people will interact more with the site, and also saves
+screen space which helps user experience on smaller screens. 
+
+![Accordion](assets/documentation/screenshot-accordion.PNG)
+
+## 5. Gallery
+
+A gallery helps the users get to know the Belles and will make them more likely to book them or want to join. It will 
+also help to keep the user on the site for longer, increasing SEO. 
+
+The gallery changes depending on screen size, with 3 columns on large screen, 2 on medium and a single column on 
+the smaller screen sizes. On hover, the images increase in size, making the page more interactive.
+
+## 6. Contact form
+
+The contact form allows users to make contact with the Belles, and they can also specify the reason for their contact 
+in the dropdown box. 
+
+The contact form is optimised for screen size with the percentage width increasing as the screen size decreases. 
+
+![Contact Form](assets/documentation/contact-form.PNG)
+
+## 7. Google Maps Embedded Maps
+
+As well as including an address for the Belles, I have also included an embedded map. On mobile I have changed this 
+to a link to Google Maps as the embedded map did not work well on smaller screens.
+
+![Google Maps](assets/documentation/map.PNG)
+
+## 8. Social Media Links
+
+Including the links to the Belles' social media pages increasing the user engagement with the chorus and allows them
+to keep up to date with their news.
 
 ## Features Left To Implement
 
+## 1. Reviews
+
+A review section could help to increase booking enquiries for the chorus.
+
+## 2. Sticky Navbar
+
+The addition of a sticky navbar would help to make the site more user friendly.
+
+## 3. Calendar
+
+Including a calendar of the Belle's performances will help to increase attendance, and subsequently help to 
+increase future bookings.
 
 
 

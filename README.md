@@ -1,4 +1,5 @@
-# MS1-belles-of-three-spires
+# The Belles of Three Spires
+## A Milestone 1 Project by Rachel Sherlock
 
 [View the live project](https://rachel2308.github.io/MS1-belles-of-three-spires/index.html)
 
@@ -136,31 +137,160 @@ A review section could help to increase booking enquiries for the chorus.
 
 The addition of a sticky navbar would help to make the site more user friendly.
 
+
 ## 3. Calendar
 
 Including a calendar of the Belle's performances will help to increase attendance, and subsequently help to 
 increase future bookings.
 
+---
+
 # Frameworks, Libraries & Programs Used
 
+1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/) 
+    * Bootstrap was used to help with the styling and responsiveness of the site.
+2. [Hover.css:](https://ianlunn.github.io/Hover/) 
+    * Hover.css was used on the links to change the styling, and on the gallery to increse the size of the image on hover.
+3. [Google Fonts:](https://fonts.google.com/) 
+    * Google fonts were used to import the Lato and Dancing Script fonts which are used throughout the site.
+4. [Font Awesome:](https://fontawesome.com/) 
+    * Font Awesome was used on for the social media icons on the footer links, and the musical notes on the accordion.
+5. [jQuery:](https://jquery.com/) 
+    * jQuery came with Bootstrap and was used to create a responsive navbar.
+6. [Git:](https://git-scm.com/) 
+    * Git was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+7. [GitHub:](https://github.com/) 
+    * GitHub is used to store the projects code after being pushed from Git.
+8. [Balsamiq:](https://balsamiq.com/) 
+    * Balsamiq was used to design the site and create [wireframes](assets/documentation/beles-wireframes.pdf).
+9. [w3schools:](https://www.w3schools.com/)
+    * A w3schools tutorial was used for as the basis for the accordion on the What is Barbershop page.
+10. [Paulund](https://paulund.co.uk/css-animation-link-underline)
+    *Sample CSS from paulund.com was used as the basis of the underline on hover on the links in the header. 
+---
+
+# Testing
+
+The HTML and CSS were tested using W3C Markup Validator and W3C CSS Validator to ensure that there 
+were no syntax errors on any of the pages of the project. 
+
+[W3C Markup Validator](https://validator.w3.org/nu/#textarea)
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+Each page of HTML and the CSS file were all checked. All results came back as completely clear of errors.
+
+## Testing User Stories from User Experience (UX) Section
+
+* **User Stories** 
+    * **First Time User Goals**
+        1. As a first time user, I will want to know about the Belles and their history.
+            On opening the site, the first thing that the user will see is the Belles' timeline giving key information 
+            since their start date. The "About the Belles" section also gives more detailed information.
+            
+            ![](assets/documentation/screenshot-home-page.PNG)
+
+        2. As a first time user, I may not know about the barbershop style and will want to learn more.
+            The "What is Barbershop" page gives information about the barbershop style, and the accordion explains 
+            the different parts of a barbershop chorus. 
+
+            ![](assets/documentation/screenshot-barbershop.PNG)
+
+        3. As a first time user, I will want to look them up on social media to get to know more about them.
+            Links in the footer contain links to the Belles facebook page, twitter, instagram and YouTube videos. 
+            This enables the user to easily access these sites. 
+
+            ![](assets/documentation/screenshot-social-media.PNG)
+
+    * **Returning User Goals**
+        1. As a returning user, I will want to keep updated with what the Belles are doing.
+            The "About the Belles" section will be kept up to date with current information, and entries will be 
+            added to the timeline as is necessary.
+        2. As a returning user, I may want to contact the Belles.
+            The contact form will enable users to contact the Belles with any enquiries that they have.
+    
+            ![](assets/documentation/screenshot-contact-form.PNG)
+
+    * **Frequent User Goals**
+        1. As a frequent user, I will want to find out where the Belles are located in order to visit.
+            The "Contact Us" page contains the address of the Belles' venue, as well as either an interactive map, or
+            the link to Google maps on smaller screen sizers. 
+
+            ![](assets/documentation/screenshop-map.PNG)
+
+        2. As a frequent user, I will want to listen to them and see their latest performances.
+            The embedded YouTube video on the homepage enables users to see the Belles' latest performance, and the 
+            link in the footer to the Belle's YouTube channel will enable users to see videos of all their performances.
+
+            ![](assets/documentation/screenshot-youtube.PNG)
+
+## Further Testing
+
+* The Website was tested on:
+    * Google Chrome 
+    * Internet Explorer 
+    * Microsoft Edge 
+    * Firefox 
+    * Safari 
+
+* The website was viewed on a variety of devices such as 
+   * Laptop 
+   * iPhone7 
+   * iPhone 11 
+   * iPhoneX
+   * Oppo A9
+   * Huawei p20 pro
+
+* A large amount of testing was done to ensure that links worked.
+* Friends were asked to review the site on different devices, screen shot any isses and point out any bugs or 
+user experience issues.
 
 
-Bootstrap 4.4.1:
-Bootstrap was used to assist with the responsiveness and styling of the website.
-Hover.css:
-Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-Google Fonts:
-Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-Font Awesome:
-Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-jQuery:
-jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-Git
-Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-GitHub:
-GitHub is used to store the projects code after being pushed from Git.
-Photoshop:
-Photoshop was used to create the logo, resizing images and editing photos for the website.
-Balsamiq:
-Balsamiq was used to create the wireframes during the design process.
 
+## Contact Form
+1. Form cannot be submitted without a name
+2. Form cannot be submitted if a valid email address is not entered.
+3. Text box must be completed for form to be submitted.
+
+## Bugs
+
+When testing on different phones, it was found that when the links in the header were pressed on an iPhone 7, the 
+line did not perform as it does on other devices.
+
+---
+
+# Deployment
+
+## GitHub Pages
+
+**The project was deployed to GitHub Pages using the following steps**
+
+1. Log in to GitHub and locate the GitHub Repository
+2. Click the "Settings" button in the menu at the top of the Repository
+3. Scroll down the Settings page to the "GitHub Pages" Section
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. Scroll back down through the page to find the site link in the "GitHub Pages" section.
+
+---
+
+# Credits
+
+## Code
+
+* Code for the accordion was adapted from [w3schools:](https://www.w3schools.com/)
+* The header link underline was adapted from code taken from [Paulund](https://paulund.co.uk/css-animation-link-underline)
+
+## Content
+
+* The content for the "About the Belles and the "Timeline" section were taken from the Belles' own website, 
+[The Belles of Three Spires](www.thebelles.org.uk)
+* All other content is original content.
+
+## Media
+
+* All images used in the project, including the Belles' logo were taken from the Belles' website, [The Belles of Three Spires](www.thebelles.org.uk) 
+and their [facebook page](https://www.facebook.com/pg/thebellesofthreespires).
+
+## Acknowledgements
+
+Thanks to 
+* The Belles of Three Spires, for granting permission for the use of their content and images in my project.

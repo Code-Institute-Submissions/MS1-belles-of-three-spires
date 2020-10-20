@@ -333,8 +333,6 @@ textarea {
 }
 
 
-}
-
 /*----------what is barbershop page----------*/
 .barbershop-accordian {
 	margin-top: 100px;
@@ -409,10 +407,9 @@ textarea {
 	}
 	
 	.timeline::after {
-		margin-left: 3px"}
-
+		margin-left: 3px;
 	}
-	
+}	
 	@media screen and (max-width: 576px) {
 		.gallery {
 			column-count: 1;
@@ -425,9 +422,9 @@ textarea {
 			margin-top: 20px;
 		}
 		.timeline::after {
-			margin-left: 0px"}
-
+			margin-left: 0px;
 		}
 		.panel-group {
 			margin-top: 50px;
-		}
+        }
+    }        

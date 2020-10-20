@@ -149,7 +149,7 @@ iframe {margin-bottom: 50px;
                   padding-left: 20px;
                   padding-right: 20px;
                   padding-bottom: 20px;
-                  margin-top: 2px;
+                  margin-top: 20px;
                   padding-top: 2px;
                   border-radius: 5px;}
 
@@ -290,13 +290,16 @@ textarea {
                   margin-bottom: 10px;}
 
 .barbershop-text-header {margin-top: 50px;
-                       color: #e62e6c; }
+                       color: #e62e6c;
+                       font-family: 'Dancing Script', cursive;
+                       font-weight: 700;
+                       font-size: 2.6em; }
 
 .panel-body {margin-bottom: 25px;
              padding-top: 15px;
              margin-top: 10px;}   
 
-.panel-group {margin-top: 100px;}
+.panel-group {margin-top: 170px;}
 
 .barbershop-youtube-text {margin-top: 25px;
                           margin-bottom: 30px;}

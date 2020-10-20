@@ -36,10 +36,11 @@ site that is clean and easy to navigate.
 
 The main colours chosen for the site are hot pink and charcoal grey.
 
-The Belles singout outfit consists of a fleece jacket in a similar colour to that used in the site. As the hot pink
-is a bright and modern colour, I have paired it with the classic dark grey shown in the text boxes. As well as being 
+The Belles singout outfit consists of a fleece jacket in a similar colour to that used on the site. As the hot pink
+is a bright and modern colour, I have paired it with the classic dark grey of the header, footer and text boxes. As well as being 
 aesthetically pleasing and easy to read with a good contrast, the combination of modern and classic also mirrors the 
-Belles' performance style.    
+Belles' performance style. The body of the site has a very pale grey/pink background colour. This ties the two main colours together
+as well as making the site more comfortable to navigate.   
 
 The charcoal grey of the header and footer is also used throughout the body of the site in text boxes. 
 
@@ -56,4 +57,37 @@ The wireframes for the site were created in balsamiq and uploaded as a pdf. They
 
 ---
 
+# Features
+
+## Existing Features
+
+The site is responsive across all screen sizes. The bootstrap grid has been 
+
+
+
+## Features Left To Implement
+
+
+
+
+
+Frameworks, Libraries & Programs Used
+Bootstrap 4.4.1:
+Bootstrap was used to assist with the responsiveness and styling of the website.
+Hover.css:
+Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+Google Fonts:
+Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+Font Awesome:
+Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+jQuery:
+jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+Git
+Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+GitHub:
+GitHub is used to store the projects code after being pushed from Git.
+Photoshop:
+Photoshop was used to create the logo, resizing images and editing photos for the website.
+Balsamiq:
+Balsamiq was used to create the wireframes during the design process.
 

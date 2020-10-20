@@ -293,6 +293,9 @@ iframe {
 	padding: 50px;
 }
 
+.submit-button {
+    text-align: center;
+}
 .form-name {
 	float: left;
 	width: 35%;

@@ -9,7 +9,7 @@ This website was created to promote the barbershop chorus, The Belles of Three S
 people about the Belles, and about barbershop music in general. Users will also be able to contact the Belles through the 
 contact form in order to make a booking or to enquire about booking, and also find their location.
 
-Barbershop music is a stripped back style, with no music or embellishments to suport the vocals. Due to this it was decided that 
+Barbershop music is a stripped back style, with no music or embellishments to support the vocals. Due to this it was decided that 
 the site should follow a similar ethos, a stripped back site which enables the content to be the main feature. This creates a
 site that is clean and easy to navigate.
 
@@ -50,7 +50,7 @@ The charcoal grey of the header and footer is also used throughout the body of t
 There are two main fonts used in the site. Dancing script, with a backup of the cursive font is used for "The Belles of 
 Three Spires" and also for the headers. This font matches font that is used for the Belles on their marketing 
 material. All other text uses the lato font, with the backup font of sans serif. This is a clean and easy to read font 
-which fits in with the simple style of the site and also contracts nicely with the script of the headers.
+which fits in with the simple style of the site and also contrasts nicely with the script of the headers.
 
 ## Wireframes
 
@@ -150,21 +150,21 @@ increase future bookings.
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/) 
     * Bootstrap was used to help with the styling and responsiveness of the site.
 2. [Hover.css:](https://ianlunn.github.io/Hover/) 
-    * Hover.css was used on the links to change the styling, and on the gallery to increse the size of the image on hover.
+    * Hover.css was used on the links to change the styling, and on the gallery to increase the size of the image on hover.
 3. [Google Fonts:](https://fonts.google.com/) 
     * Google fonts were used to import the Lato and Dancing Script fonts which are used throughout the site.
 4. [Font Awesome:](https://fontawesome.com/) 
-    * Font Awesome was used on for the social media icons on the footer links, and the musical notes on the accordion.
+    * Font Awesome was used for the social media icons on the footer links, and the musical notes on the accordion.
 5. [jQuery:](https://jquery.com/) 
     * jQuery came with Bootstrap and was used to create a responsive navbar.
 6. [Git:](https://git-scm.com/) 
     * Git was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 7. [GitHub:](https://github.com/) 
-    * GitHub is used to store the projects code after being pushed from Git.
+    * GitHub is used to store the project's code after being pushed from Git.
 8. [Balsamiq:](https://balsamiq.com/) 
     * Balsamiq was used to design the site and create [wireframes](assets/documentation/beles-wireframes.pdf).
 9. [w3schools:](https://www.w3schools.com/)
-    * A w3schools tutorial was used for as the basis for the accordion on the What is Barbershop page.
+    * A w3schools tutorial was used as the basis for the accordion on the What is Barbershop page.
 10. [Paulund](https://paulund.co.uk/css-animation-link-underline)
     *Sample CSS from paulund.com was used as the basis of the underline on hover on the links in the header. 
 ---
@@ -213,7 +213,7 @@ Each page of HTML and the CSS file were all checked. All results came back as co
     * **Frequent User Goals**
         1. As a frequent user, I will want to find out where the Belles are located in order to visit.
             The "Contact Us" page contains the address of the Belles' venue, as well as either an interactive map, or
-            the link to Google maps on smaller screen sizers. 
+            the link to Google maps on smaller screen sizes. 
 
             ![](assets/documentation/screenshop-map.PNG)
 
@@ -241,7 +241,7 @@ Each page of HTML and the CSS file were all checked. All results came back as co
    * Huawei p20 pro
 
 * A large amount of testing was done to ensure that links worked.
-* Friends were asked to review the site on different devices, screen shot any isses and point out any bugs or 
+* Friends were asked to review the site on different devices, screenshot any issues and point out any bugs or 
 user experience issues.
 
 
@@ -294,3 +294,5 @@ and their [facebook page](https://www.facebook.com/pg/thebellesofthreespires).
 
 Thanks to 
 * The Belles of Three Spires, for granting permission for the use of their content and images in my project.
+
+---

@@ -112,14 +112,14 @@ in the dropdown box.
 
 The contact form is optimised for screen size with the percentage width increasing as the screen size decreases. 
 
-![Contact Form](assets/documentation/contact-form.PNG)
+![Contact Form](assets/documentation/screenshot-contact-form.PNG)
 
 ## 7. Google Maps Embedded Maps
 
 As well as including an address for the Belles, I have also included an embedded map. On mobile I have changed this 
 to a link to Google Maps as the embedded map did not work well on smaller screens.
 
-![Google Maps](assets/documentation/map.PNG)
+![Google Maps](assets/documentation/screenshop-map.PNG)
 
 ## 8. Social Media Links
 
@@ -141,10 +141,10 @@ The addition of a sticky navbar would help to make the site more user friendly.
 Including a calendar of the Belle's performances will help to increase attendance, and subsequently help to 
 increase future bookings.
 
+# Frameworks, Libraries & Programs Used
 
 
 
-Frameworks, Libraries & Programs Used
 Bootstrap 4.4.1:
 Bootstrap was used to assist with the responsiveness and styling of the website.
 Hover.css:

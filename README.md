@@ -186,20 +186,24 @@ increase future bookings.
 The HTML and CSS were tested using W3C Markup Validator and W3C CSS Validator to ensure that there 
 were no syntax errors on any of the pages of the project. 
 
-[W3C Markup Validator](https://validator.w3.org/nu/#textarea)
-[W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+* [W3C Markup Validator](https://validator.w3.org/nu/#textarea)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 Each page of HTML and the CSS file were all checked. All results came back as completely clear of errors.
 
 * Results
     * HTML
-    ![Who are the Belles](documentation/validator-results-index.PNG)
-    ![What is Barbershop](documentation/validator-results-barbershop.PNG)
-    ![Gallery](documentation/validator-results-gallery.PNG)
-    ![Contact Us](documentation/validator-results-contact.PNG)
+        * [Who are the Belles](documentation/validator-results-index.pdf)
+    
+        * [What is Barbershop](documentation/validator-results-barbershop.pdf)
+    
+        * [Gallery](documentation/validator-results-gallery.pdf)
+    
+        * [Contact Us](documentation/validator-results-contact.pdf)
 
     * CSS
-    ![CSS](documentation/validator-results-css.PNG)
+    
+        * [CSS](documentation/validator-results-css.pdf)
 
 ### Testing User Stories from User Experience (UX) Section
 

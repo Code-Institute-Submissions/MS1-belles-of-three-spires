@@ -193,7 +193,7 @@ Each page of HTML and the CSS file were all checked. All results came back as co
 
 * Results
     * HTML
-        * [Who are the Belles](https://github.com/Rachel2308/MS1-belles-of-three-spires/blob/master/documentation/validator-results-belles.pdf)
+        * [Who are the Belles](https://github.com/Rachel2308/MS1-belles-of-three-spires/blob/master/documentation/validator-results-index.pdf)
     
         * [What is Barbershop](https://github.com/Rachel2308/MS1-belles-of-three-spires/blob/master/documentation/validator-results-barbershop.pdf)
     

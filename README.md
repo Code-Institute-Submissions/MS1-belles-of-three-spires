@@ -48,7 +48,7 @@ The charcoal grey of the header and footer is also used throughout the body of t
 ## Typography
 
 There are two main fonts used in the site. Dancing script, with a backup of the cursive font is used for "The Belles of 
-Three Spires" and also for the headers. This font matches font that is used for the Belles on their marketing 
+Three Spires" and also for the headers. This font matches the font that is used by the Belles on their marketing 
 material. All other text uses the lato font, with the backup font of sans serif. This is a clean and easy to read font 
 which fits in with the simple style of the site and also contrasts nicely with the script of the headers.
 
@@ -91,7 +91,7 @@ to optimise the user experience.
 ## 4. Accordion
 
 I have added an accordion in order to give details of the different parts of a barbershop chorus. This helps to 
-explain this not so well-known musical style and creates interest.
+explain this little known musical style and creates interest.
 
 Having the information given as an accordion means that people will interact more with the site, and also saves
 screen space which helps user experience on smaller screens. 
@@ -124,7 +124,7 @@ to a link to Google Maps as the embedded map did not work well on smaller screen
 
 ## 8. Social Media Links
 
-Including the links to the Belles' social media pages increasing the user engagement with the chorus and allows them
+Including the links to the Belles' social media pages increases the user engagement with the chorus and allows them
 to keep up to date with their news.
 
 ## Features Left To Implement
@@ -145,7 +145,7 @@ increase future bookings.
 
 ---
 
-# Frameworks, Libraries & Programs Used
+# Frameworks, Libraries & Programmes Used
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/) 
     * Bootstrap was used to help with the styling and responsiveness of the site.
@@ -219,7 +219,7 @@ Each page of HTML and the CSS file were all checked. All results came back as co
 
         2. As a frequent user, I will want to listen to them and see their latest performances.
             The embedded YouTube video on the homepage enables users to see the Belles' latest performance, and the 
-            link in the footer to the Belle's YouTube channel will enable users to see videos of all their performances.
+            link in the footer to the Belles' YouTube channel will enable users to see videos of all their performances.
 
             ![](assets/documentation/screenshot-youtube.PNG)
 
@@ -283,9 +283,9 @@ This has not been replicated on any other model.
 
 ## Content
 
-* The content for the "About the Belles and the "Timeline" section were taken from the Belles' own website, 
+* The content for the "About the Belles" and the "Timeline" section were taken from the Belles' own website, 
 [The Belles of Three Spires](www.thebelles.org.uk)
-* All other content is original content.
+* All other content is original.
 
 ## Media
 
@@ -295,6 +295,6 @@ and their [facebook page](https://www.facebook.com/pg/thebellesofthreespires).
 ## Acknowledgements
 
 Thanks to 
-* The Belles of Three Spires, for granting permission for the use of their content and images in my project.
+* The Belles of Three Spires for granting permission to use their content and images in my project.
 
 ---

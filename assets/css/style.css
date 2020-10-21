@@ -69,31 +69,6 @@ a.middle:hover:before {
 	text-decoration: underline;
 }
 
-.belles-text:active {
-	color: #e62e6c;
-}
-
-.belles-text.middle {
-	position: relative;
-}
-
-.belles-text.middle:before {
-	content: "";
-	position: absolute;
-	width: 100%;
-	height: 2px;
-	bottom: 9px;
-	left: 0;
-	background-color: #e62e6c;
-	visibility: hidden;
-	transform: scaleX(0);
-	transition: all 0.2s ease-in-out;
-}
-
-.belles-text.middle:hover:before {
-	visibility: visible;
-	transform: scaleX(1);
-}
 
 .belles-text {
 	color: #e62e6c;
@@ -293,9 +268,6 @@ iframe {
 	padding: 50px;
 }
 
-.submit-button {
-    text-align: center;
-}
 .form-name {
 	float: left;
 	width: 35%;
@@ -323,6 +295,8 @@ textarea {
 	border-radius: 4px;
 	width: 60px;
 	padding-bottom: 3px;
+    margin: auto;
+    margin-top: 15px;
 }
 
 .form-text {
@@ -342,6 +316,7 @@ textarea {
 	margin-left: 15px;
 	margin-bottom: 25px;
 }
+
 .barbershop-text {
 	font-family: 'Lato', sans-serif;
 	text-align: center;
@@ -349,6 +324,7 @@ textarea {
 	margin-left: 15px;
 	margin-bottom: 10px;
 }
+
 .barbershop-text-header {
 	margin-top: 50px;
 	color: #e62e6c;
@@ -356,14 +332,17 @@ textarea {
 	font-weight: 700;
 	font-size: 2.6em;
 }
+
 .panel-body {
 	margin-bottom: 25px;
 	padding-top: 15px;
 	margin-top: 10px;
 }
+
 .panel-group {
 	margin-top: 170px;
 }
+
 .barbershop-youtube-text {
 	margin-top: 25px;
 	margin-bottom: 30px;
@@ -376,16 +355,19 @@ textarea {
 	margin-top: 35px;
 	margin-bottom: 25px;
 }
+
 .gallery-image {
 	width: 100%;
 	margin-bottom: 25px;
 }
+
 .zoom:hover {
 	transform: scale(1.2);
 	transition: transform .3s;
 }
 
 /*----------gallery media queries----------*/
+
 @media screen and (max-width: 1393px) {
 	.gallery {
 		column-count: 3;
@@ -395,6 +377,7 @@ textarea {
 		width: 50%;
 	}
 }
+
 @media screen and (max-width: 992px) {
 	.gallery {
 		column-count: 2;
@@ -404,6 +387,7 @@ textarea {
 		width: 60%;
 	}
 }
+
 @media screen and (max-width: 768px) {
 	.contact-form {
 		width: 80%;
@@ -413,21 +397,22 @@ textarea {
 		margin-left: 3px;
 	}
 }	
-	@media screen and (max-width: 576px) {
-		.gallery {
-			column-count: 1;
-		}
-		.contact-form {
-			width: 80%;
-		}
-		.book-us-dropdown {
-			margin-left: 20px;
-			margin-top: 20px;
-		}
-		.timeline::after {
-			margin-left: 0px;
-		}
-		.panel-group {
-			margin-top: 50px;
-        }
-    }        
+
+@media screen and (max-width: 576px) {
+    .gallery {
+        column-count: 1;
+    }
+    .contact-form {
+        width: 80%;
+    }
+    .book-us-dropdown {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .timeline::after {
+        margin-left: 0px;
+    }
+    .panel-group {
+        margin-top: 50px;
+    }
+}        

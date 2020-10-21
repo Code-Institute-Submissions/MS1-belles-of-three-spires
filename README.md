@@ -249,13 +249,15 @@ user experience issues.
 ## Contact Form
 1. Form cannot be submitted without a name
 2. Form cannot be submitted if a valid email address is not entered.
-3. Text box must be completed for form to be submitted.
+3. Text box must be completed for the form to be submitted.
 
 ## Bugs
 
-When testing on different phones, it was found that when the links in the header were pressed on an iPhone 7, the 
+* When testing on different phones, it was found that when the links in the header were pressed on an iPhone 7, the 
 line did not perform as it does on other devices.
-
+* On Internet Explorer, the placeholder text inside the contact form is a little low in the text box.
+* On iPhone 11 Pro Max, when viewed in landscape mode, the header and footer do not cover the full width of the page.
+This has not been replicated on any other model. 
 ---
 
 # Deployment

@@ -247,9 +247,10 @@ user experience issues.
 
 
 ## Contact Form
-1. Form cannot be submitted without a name
+1. Form cannot be submitted without a name.
 2. Form cannot be submitted if a valid email address is not entered.
 3. Text box must be completed for the form to be submitted.
+4. When all sections of the form are completed, the form submits correctly. 
 
 ## Bugs
 

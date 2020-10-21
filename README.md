@@ -193,17 +193,17 @@ Each page of HTML and the CSS file were all checked. All results came back as co
 
 * Results
     * HTML
-        * [Who are the Belles](documentation/validator-results-index.pdf)
+        * [Who are the Belles](https://github.com/Rachel2308/MS1-belles-of-three-spires/blob/master/documentation/validator-results-belles.pdf)
     
-        * [What is Barbershop](documentation/validator-results-barbershop.pdf)
+        * [What is Barbershop](https://github.com/Rachel2308/MS1-belles-of-three-spires/blob/master/documentation/validator-results-barbershop.pdf)
     
-        * [Gallery](documentation/validator-results-gallery.pdf)
+        * [Gallery](https://github.com/Rachel2308/MS1-belles-of-three-spires/blob/master/documentation/validator-results-gallery.pdf)
     
-        * [Contact Us](documentation/validator-results-contact.pdf)
+        * [Contact Us](https://github.com/Rachel2308/MS1-belles-of-three-spires/blob/master/documentation/validator-results-contact.pdf)
 
     * CSS
     
-        * [CSS](documentation/validator-results-css.pdf)
+        * [CSS](https://github.com/Rachel2308/MS1-belles-of-three-spires/blob/master/documentation/validator-results-css.pdf)
 
 ### Testing User Stories from User Experience (UX) Section
 
